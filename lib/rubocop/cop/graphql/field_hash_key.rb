@@ -26,7 +26,7 @@ module RuboCop
       class FieldHashKey < GQLBase
 
         extend AutoCorrector
-        include RuboCop::GraphQL::NodePattern
+        
         include RuboCop::Cop::RangeHelp
 
         # @!method hash_key_to_use(node)

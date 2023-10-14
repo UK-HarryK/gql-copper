@@ -19,7 +19,7 @@ module RuboCop
       #   end
       #
       class ArgumentName < Base
-        include RuboCop::GraphQL::NodePattern
+        
         RESTRICT_ON_SEND = %i[argument].freeze
 
         using RuboCop::GraphQL::Ext::SnakeCase

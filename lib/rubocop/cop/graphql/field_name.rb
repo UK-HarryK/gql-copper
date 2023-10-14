@@ -25,7 +25,7 @@ module RuboCop
       class FieldName < GQLBase
 
         extend AutoCorrector
-        include RuboCop::GraphQL::NodePattern
+        
 
         using RuboCop::GraphQL::Ext::SnakeCase
 

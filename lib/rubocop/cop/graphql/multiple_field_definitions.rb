@@ -29,7 +29,7 @@ module RuboCop
       class MultipleFieldDefinitions < GQLBase
 
         extend AutoCorrector
-        include RuboCop::GraphQL::NodePattern
+        
         include RuboCop::Cop::RangeHelp
         include RuboCop::GraphQL::Heredoc
 

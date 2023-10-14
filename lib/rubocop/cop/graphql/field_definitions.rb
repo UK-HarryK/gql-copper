@@ -47,7 +47,7 @@ module RuboCop
       class FieldDefinitions < Base # rubocop:disable Metrics/ClassLength
         extend AutoCorrector
         include ConfigurableEnforcedStyle
-        include RuboCop::GraphQL::NodePattern
+        
         include RuboCop::Cop::RangeHelp
         include RuboCop::GraphQL::Sorbet
         include RuboCop::GraphQL::Heredoc

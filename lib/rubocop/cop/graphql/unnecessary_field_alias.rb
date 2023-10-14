@@ -23,7 +23,7 @@ module RuboCop
       class UnnecessaryFieldAlias < GQLBase
 
         extend AutoCorrector
-        include RuboCop::GraphQL::NodePattern
+        
 
         MSG = "Unnecessary :%<kwarg>s configured"
         RESTRICT_ON_SEND = %i[field].freeze

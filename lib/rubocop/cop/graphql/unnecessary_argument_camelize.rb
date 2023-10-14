@@ -42,7 +42,7 @@ module RuboCop
       #
       class UnnecessaryArgumentCamelize < GQLBase
 
-        include RuboCop::GraphQL::NodePattern
+        
 
         MSG = "Unnecessary argument camelize"
         RESTRICT_ON_SEND = %i[argument].freeze

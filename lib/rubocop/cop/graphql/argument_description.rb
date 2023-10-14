@@ -20,7 +20,7 @@ module RuboCop
       #
       class ArgumentDescription < GQLBase
 
-        include RuboCop::GraphQL::NodePattern
+        
 
         MSG = "Missing argument description"
         RESTRICT_ON_SEND = %i[argument].freeze

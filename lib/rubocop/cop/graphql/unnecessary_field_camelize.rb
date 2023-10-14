@@ -20,7 +20,7 @@ module RuboCop
       #
       class UnnecessaryFieldCamelize < GQLBase
 
-        include RuboCop::GraphQL::NodePattern
+        
 
         MSG = "Unnecessary field camelize"
         RESTRICT_ON_SEND = %i[field].freeze
