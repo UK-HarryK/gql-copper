@@ -22,7 +22,6 @@ module RuboCop
         #     argument :last_name, String, required: true
         #   end
         #
-        
 
         MSG = "Consider moving arguments to a new input type"
 

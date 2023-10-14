@@ -41,9 +41,6 @@ module RuboCop
       #   end
       #
       class UnnecessaryArgumentCamelize < GQLBase
-
-        
-
         MSG = "Unnecessary argument camelize"
         RESTRICT_ON_SEND = %i[argument].freeze
 

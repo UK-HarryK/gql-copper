@@ -20,7 +20,6 @@ module RuboCop
     #
     module GraphQL
       class LegacyDsl < GQLBase
-
         # @!method legacy_dsl?(node)
         def_node_matcher :legacy_dsl?, <<~PATTERN
           (block

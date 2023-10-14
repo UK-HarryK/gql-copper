@@ -19,9 +19,6 @@ module RuboCop
       #   end
       #
       class ArgumentDescription < GQLBase
-
-        
-
         MSG = "Missing argument description"
         RESTRICT_ON_SEND = %i[argument].freeze
 

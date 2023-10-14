@@ -33,7 +33,6 @@ module RuboCop
         #     field :contact_last_name, String, null: false
         #   end
         #
-        
 
         def on_class(node)
           schema_member = RuboCop::GraphQL::SchemaMember.new(node)

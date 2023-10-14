@@ -19,9 +19,6 @@ module RuboCop
       #   end
       #
       class UnnecessaryFieldCamelize < GQLBase
-
-        
-
         MSG = "Unnecessary field camelize"
         RESTRICT_ON_SEND = %i[field].freeze
 

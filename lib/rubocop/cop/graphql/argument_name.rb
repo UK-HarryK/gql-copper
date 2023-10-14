@@ -19,7 +19,6 @@ module RuboCop
       #   end
       #
       class ArgumentName < GQLBase
-        
         RESTRICT_ON_SEND = %i[argument].freeze
 
         using RuboCop::GraphQL::Ext::SnakeCase

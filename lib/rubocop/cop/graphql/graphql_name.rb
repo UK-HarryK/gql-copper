@@ -38,7 +38,6 @@ module RuboCop
       #   end
       #
       class GraphqlName < GQLBase
-
         include ConfigurableEnforcedStyle
 
         # @!method graphql_name(node)

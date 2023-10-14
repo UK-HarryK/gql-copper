@@ -49,9 +49,6 @@ module RuboCop
       #   end
       #
       class OrderedArguments < GQLBase
-
-        
-
         include RuboCop::GraphQL::SwapRange
         include RuboCop::GraphQL::CompareOrder
 

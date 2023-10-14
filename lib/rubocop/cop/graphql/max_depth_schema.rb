@@ -13,7 +13,6 @@ module RuboCop
       #   end
       #
       class MaxDepthSchema < GQLBase
-
         # @!method max_depth(node)
         def_node_matcher :max_depth, <<~PATTERN
           `(send nil? :max_depth ...)

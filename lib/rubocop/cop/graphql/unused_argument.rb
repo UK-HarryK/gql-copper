@@ -64,9 +64,6 @@ module RuboCop
       #   end
       #
       class UnusedArgument < GQLBase
-
-        
-
         MSG = "Argument%<ending>s `%<unresolved_args>s` should be listed in the %<name>s signature."
 
         def on_class(node)

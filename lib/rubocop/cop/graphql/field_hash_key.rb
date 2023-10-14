@@ -24,9 +24,6 @@ module RuboCop
       #   end
       #
       class FieldHashKey < GQLBase
-
-        
-        
         include RuboCop::Cop::RangeHelp
 
         # @!method hash_key_to_use(node)

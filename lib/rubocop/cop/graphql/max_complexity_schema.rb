@@ -13,7 +13,6 @@ module RuboCop
       #   end
       #
       class MaxComplexitySchema < GQLBase
-
         # @!method max_complexity(node)
         def_node_matcher :max_complexity, <<~PATTERN
           `(send nil? :max_complexity ...)

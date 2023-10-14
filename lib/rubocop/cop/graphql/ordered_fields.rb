@@ -31,9 +31,6 @@ module RuboCop
       #   end
       #
       class OrderedFields < GQLBase
-
-        
-
         include RuboCop::GraphQL::SwapRange
         include RuboCop::GraphQL::CompareOrder
 

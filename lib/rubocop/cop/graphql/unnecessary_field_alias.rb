@@ -21,10 +21,6 @@ module RuboCop
       #   field :name, String, "Name of the user", null: true, hash_key: :name
       #
       class UnnecessaryFieldAlias < GQLBase
-
-        
-        
-
         MSG = "Unnecessary :%<kwarg>s configured"
         RESTRICT_ON_SEND = %i[field].freeze
 

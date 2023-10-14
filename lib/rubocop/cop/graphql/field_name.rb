@@ -23,10 +23,6 @@ module RuboCop
       #   end
       #
       class FieldName < GQLBase
-
-        
-        
-
         using RuboCop::GraphQL::Ext::SnakeCase
 
         MSG = "Use snake_case for field names"

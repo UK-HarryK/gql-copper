@@ -8,7 +8,6 @@ module RuboCop
       #
       # The maximum allowed length is configurable using the Max option.
       class ResolverMethodLength < GQLBase
-
         include RuboCop::Cop::ConfigurableMax
         include RuboCop::Cop::CodeLength
 

@@ -24,9 +24,6 @@ module RuboCop
       #   end
       #
       class FieldMethod < GQLBase
-
-        
-        
         include RuboCop::Cop::RangeHelp
 
         # @!method method_to_use(node)

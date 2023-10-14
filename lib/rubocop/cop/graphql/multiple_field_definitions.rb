@@ -27,9 +27,6 @@ module RuboCop
       #     field :first_name, Name, null: true
       #   end
       class MultipleFieldDefinitions < GQLBase
-
-        
-        
         include RuboCop::Cop::RangeHelp
         include RuboCop::GraphQL::Heredoc
 

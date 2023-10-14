@@ -45,9 +45,8 @@ module RuboCop
       #     end
       #   end
       class FieldDefinitions < GQLBase # rubocop:disable Metrics/ClassLength
-        
         include ConfigurableEnforcedStyle
-        
+
         include RuboCop::Cop::RangeHelp
         include RuboCop::GraphQL::Sorbet
         include RuboCop::GraphQL::Heredoc

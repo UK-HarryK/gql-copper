@@ -69,7 +69,6 @@ module RuboCop
       #   end
       #
       class NotAuthorizedNodeType < GQLBase
-
         MSG = ".authorized? should be defined for types implementing Node interface."
 
         # @!method implements_node_type?(node)
