@@ -5,7 +5,7 @@ module RuboCop
     module GraphQL
       class GQLBase < Base
         include RuboCop::GraphQL::NodePattern
-        extend RuboCop::Cop::AutoCorrector
+        extend AutoCorrector
 
       end
     end
