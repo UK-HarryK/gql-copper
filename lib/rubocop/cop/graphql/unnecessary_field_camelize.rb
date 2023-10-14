@@ -18,9 +18,7 @@ module RuboCop
       #     field :name, "Name of the user", String, null: true, camelize: true
       #   end
       #
-      class UnnecessaryFieldCamelize < Base
-        include RuboCop::GraphQL::NodePattern
-
+      class UnnecessaryFieldCamelize < GQLBase
         MSG = "Unnecessary field camelize"
         RESTRICT_ON_SEND = %i[field].freeze
 

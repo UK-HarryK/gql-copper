@@ -22,10 +22,7 @@ module RuboCop
       #     field :firstName, String, null: true
       #   end
       #
-      class FieldName < Base
-        extend AutoCorrector
-        include RuboCop::GraphQL::NodePattern
-
+      class FieldName < GQLBase
         using RuboCop::GraphQL::Ext::SnakeCase
 
         MSG = "Use snake_case for field names"

@@ -23,9 +23,7 @@ module RuboCop
       #     end
       #   end
       #
-      class FieldMethod < Base
-        extend AutoCorrector
-        include RuboCop::GraphQL::NodePattern
+      class FieldMethod < GQLBase
         include RuboCop::Cop::RangeHelp
 
         # @!method method_to_use(node)

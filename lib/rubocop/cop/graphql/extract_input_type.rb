@@ -3,7 +3,7 @@
 module RuboCop
   module Cop
     module GraphQL
-      class ExtractInputType < Base
+      class ExtractInputType < GQLBase
         # Checks fields on common prefix groups
         #
         # # @example
@@ -22,7 +22,6 @@ module RuboCop
         #     argument :last_name, String, required: true
         #   end
         #
-        include RuboCop::GraphQL::NodePattern
 
         MSG = "Consider moving arguments to a new input type"
 

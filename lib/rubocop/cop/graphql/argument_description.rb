@@ -18,9 +18,7 @@ module RuboCop
       #     argument :uuid, ID, required: true
       #   end
       #
-      class ArgumentDescription < Base
-        include RuboCop::GraphQL::NodePattern
-
+      class ArgumentDescription < GQLBase
         MSG = "Missing argument description"
         RESTRICT_ON_SEND = %i[argument].freeze
 

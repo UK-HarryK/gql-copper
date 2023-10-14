@@ -30,9 +30,7 @@ module RuboCop
       #     field :name, String, null: true
       #   end
       #
-      class OrderedFields < Base
-        extend AutoCorrector
-
+      class OrderedFields < GQLBase
         include RuboCop::GraphQL::SwapRange
         include RuboCop::GraphQL::CompareOrder
 

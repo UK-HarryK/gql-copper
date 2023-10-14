@@ -18,9 +18,7 @@ module RuboCop
       #     field :name, String, null: true
       #   end
       #
-      class FieldDescription < Base
-        include RuboCop::GraphQL::NodePattern
-
+      class FieldDescription < GQLBase
         MSG = "Missing field description"
         RESTRICT_ON_SEND = %i[field].freeze
 

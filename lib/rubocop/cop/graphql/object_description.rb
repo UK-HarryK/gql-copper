@@ -20,8 +20,7 @@ module RuboCop
       #     # ...
       #   end
       #
-      class ObjectDescription < Base
-        include RuboCop::GraphQL::NodePattern
+      class ObjectDescription < GQLBase
         include RuboCop::GraphQL::DescriptionMethod
 
         MSG = "Missing type description"

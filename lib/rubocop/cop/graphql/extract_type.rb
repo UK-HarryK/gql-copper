@@ -3,7 +3,7 @@
 module RuboCop
   module Cop
     module GraphQL
-      class ExtractType < Base
+      class ExtractType < GQLBase
         # Checks fields on common prefix groups
         #
         # # @example
@@ -33,7 +33,6 @@ module RuboCop
         #     field :contact_last_name, String, null: false
         #   end
         #
-        include RuboCop::GraphQL::NodePattern
 
         def on_class(node)
           schema_member = RuboCop::GraphQL::SchemaMember.new(node)

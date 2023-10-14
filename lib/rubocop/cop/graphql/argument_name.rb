@@ -18,8 +18,7 @@ module RuboCop
       #     argument :userId, ID, required: true
       #   end
       #
-      class ArgumentName < Base
-        include RuboCop::GraphQL::NodePattern
+      class ArgumentName < GQLBase
         RESTRICT_ON_SEND = %i[argument].freeze
 
         using RuboCop::GraphQL::Ext::SnakeCase

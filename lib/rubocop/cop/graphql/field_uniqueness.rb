@@ -26,7 +26,7 @@ module RuboCop
       #     end
       #   end
       #
-      class FieldUniqueness < Base
+      class FieldUniqueness < GQLBase
         include RuboCop::GraphQL::NodeUniqueness
 
         MSG = "Field names should only be defined once per type. "\

@@ -20,10 +20,7 @@ module RuboCop
       #   field :name, String, "Name of the user", null: true, resolver_method: :name
       #   field :name, String, "Name of the user", null: true, hash_key: :name
       #
-      class UnnecessaryFieldAlias < Base
-        extend AutoCorrector
-        include RuboCop::GraphQL::NodePattern
-
+      class UnnecessaryFieldAlias < GQLBase
         MSG = "Unnecessary :%<kwarg>s configured"
         RESTRICT_ON_SEND = %i[field].freeze
 
