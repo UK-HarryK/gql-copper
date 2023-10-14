@@ -22,7 +22,8 @@ module RuboCop
       #     field :firstName, String, null: true
       #   end
       #
-      class FieldName < Base
+      class FieldName < GQLBase
+
         extend AutoCorrector
         include RuboCop::GraphQL::NodePattern
 

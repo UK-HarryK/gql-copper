@@ -18,7 +18,8 @@ module RuboCop
       #     field :name, "Name of the user", String, null: true, camelize: true
       #   end
       #
-      class UnnecessaryFieldCamelize < Base
+      class UnnecessaryFieldCamelize < GQLBase
+
         include RuboCop::GraphQL::NodePattern
 
         MSG = "Unnecessary field camelize"

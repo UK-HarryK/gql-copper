@@ -26,7 +26,8 @@ module RuboCop
       #     end
       #     field :first_name, Name, null: true
       #   end
-      class MultipleFieldDefinitions < Base
+      class MultipleFieldDefinitions < GQLBase
+
         extend AutoCorrector
         include RuboCop::GraphQL::NodePattern
         include RuboCop::Cop::RangeHelp

@@ -20,7 +20,8 @@ module RuboCop
       #     # ...
       #   end
       #
-      class ObjectDescription < Base
+      class ObjectDescription < GQLBase
+
         include RuboCop::GraphQL::NodePattern
         include RuboCop::GraphQL::DescriptionMethod
 

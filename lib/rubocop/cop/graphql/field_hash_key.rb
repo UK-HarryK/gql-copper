@@ -23,7 +23,8 @@ module RuboCop
       #     end
       #   end
       #
-      class FieldHashKey < Base
+      class FieldHashKey < GQLBase
+
         extend AutoCorrector
         include RuboCop::GraphQL::NodePattern
         include RuboCop::Cop::RangeHelp

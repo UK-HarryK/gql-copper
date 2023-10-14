@@ -20,7 +20,8 @@ module RuboCop
       #   field :name, String, "Name of the user", null: true, resolver_method: :name
       #   field :name, String, "Name of the user", null: true, hash_key: :name
       #
-      class UnnecessaryFieldAlias < Base
+      class UnnecessaryFieldAlias < GQLBase
+
         extend AutoCorrector
         include RuboCop::GraphQL::NodePattern
 

@@ -37,7 +37,8 @@ module RuboCop
       #   class UserType < BaseType
       #   end
       #
-      class GraphqlName < Base
+      class GraphqlName < GQLBase
+
         include ConfigurableEnforcedStyle
 
         # @!method graphql_name(node)

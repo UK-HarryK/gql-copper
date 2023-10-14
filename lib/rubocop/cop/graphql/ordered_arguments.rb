@@ -48,7 +48,8 @@ module RuboCop
       #     end
       #   end
       #
-      class OrderedArguments < Base
+      class OrderedArguments < GQLBase
+
         extend AutoCorrector
 
         include RuboCop::GraphQL::SwapRange
