@@ -24,7 +24,7 @@ module RuboCop
       #
       class FieldName < GQLBase
 
-        extend AutoCorrector
+        
         
 
         using RuboCop::GraphQL::Ext::SnakeCase

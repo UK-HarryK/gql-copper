@@ -25,7 +25,7 @@ module RuboCop
       #
       class FieldHashKey < GQLBase
 
-        extend AutoCorrector
+        
         
         include RuboCop::Cop::RangeHelp
 

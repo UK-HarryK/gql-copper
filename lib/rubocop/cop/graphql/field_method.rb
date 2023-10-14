@@ -25,7 +25,7 @@ module RuboCop
       #
       class FieldMethod < GQLBase
 
-        extend AutoCorrector
+        
         
         include RuboCop::Cop::RangeHelp
 

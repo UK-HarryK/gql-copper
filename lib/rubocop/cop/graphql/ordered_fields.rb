@@ -32,7 +32,7 @@ module RuboCop
       #
       class OrderedFields < GQLBase
 
-        extend AutoCorrector
+        
 
         include RuboCop::GraphQL::SwapRange
         include RuboCop::GraphQL::CompareOrder

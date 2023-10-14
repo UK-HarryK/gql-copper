@@ -50,7 +50,7 @@ module RuboCop
       #
       class OrderedArguments < GQLBase
 
-        extend AutoCorrector
+        
 
         include RuboCop::GraphQL::SwapRange
         include RuboCop::GraphQL::CompareOrder

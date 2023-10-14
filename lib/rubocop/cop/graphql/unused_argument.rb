@@ -65,7 +65,7 @@ module RuboCop
       #
       class UnusedArgument < GQLBase
 
-        extend AutoCorrector
+        
 
         MSG = "Argument%<ending>s `%<unresolved_args>s` should be listed in the %<name>s signature."
 

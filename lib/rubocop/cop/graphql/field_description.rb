@@ -19,7 +19,6 @@ module RuboCop
       #   end
       #
       class FieldDescription < GQLBase
-        
 
         MSG = "Missing field description"
         RESTRICT_ON_SEND = %i[field].freeze

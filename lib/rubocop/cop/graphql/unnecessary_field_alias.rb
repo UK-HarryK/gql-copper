@@ -22,7 +22,7 @@ module RuboCop
       #
       class UnnecessaryFieldAlias < GQLBase
 
-        extend AutoCorrector
+        
         
 
         MSG = "Unnecessary :%<kwarg>s configured"

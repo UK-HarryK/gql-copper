@@ -45,7 +45,7 @@ module RuboCop
       #     end
       #   end
       class FieldDefinitions < GQLBase # rubocop:disable Metrics/ClassLength
-        extend AutoCorrector
+        
         include ConfigurableEnforcedStyle
         
         include RuboCop::Cop::RangeHelp

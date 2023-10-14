@@ -28,7 +28,7 @@ module RuboCop
       #   end
       class MultipleFieldDefinitions < GQLBase
 
-        extend AutoCorrector
+        
         
         include RuboCop::Cop::RangeHelp
         include RuboCop::GraphQL::Heredoc
