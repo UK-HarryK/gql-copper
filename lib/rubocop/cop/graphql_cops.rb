@@ -1,5 +1,6 @@
 # frozen_string_literal: true
 
+require_relative "graphql/gql_base"
 require_relative "graphql/argument_description"
 require_relative "graphql/argument_name"
 require_relative "graphql/argument_uniqueness"

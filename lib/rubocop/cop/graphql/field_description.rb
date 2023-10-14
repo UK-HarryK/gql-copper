@@ -18,7 +18,7 @@ module RuboCop
       #     field :name, String, null: true
       #   end
       #
-      class FieldDescription < Base
+      class FieldDescription < GQLBase
         
 
         MSG = "Missing field description"

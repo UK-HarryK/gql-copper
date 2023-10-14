@@ -44,7 +44,7 @@ module RuboCop
       #       object.contact_data.last_name
       #     end
       #   end
-      class FieldDefinitions < Base # rubocop:disable Metrics/ClassLength
+      class FieldDefinitions < GQLBase # rubocop:disable Metrics/ClassLength
         extend AutoCorrector
         include ConfigurableEnforcedStyle
         

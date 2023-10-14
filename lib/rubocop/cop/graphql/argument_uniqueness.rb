@@ -19,7 +19,7 @@ module RuboCop
       #     argument :user_id, ID, required: true
       #   end
       #
-      class ArgumentUniqueness < Base
+      class ArgumentUniqueness < GQLBase
         include RuboCop::GraphQL::NodeUniqueness
 
         MSG = "Argument names should only be defined once per block. "\

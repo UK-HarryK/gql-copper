@@ -18,7 +18,7 @@ module RuboCop
       #     argument :userId, ID, required: true
       #   end
       #
-      class ArgumentName < Base
+      class ArgumentName < GQLBase
         
         RESTRICT_ON_SEND = %i[argument].freeze
 

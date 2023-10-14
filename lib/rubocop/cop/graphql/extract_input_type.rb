@@ -3,7 +3,7 @@
 module RuboCop
   module Cop
     module GraphQL
-      class ExtractInputType < Base
+      class ExtractInputType < GQLBase
         # Checks fields on common prefix groups
         #
         # # @example
